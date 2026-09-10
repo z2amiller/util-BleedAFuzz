@@ -25,10 +25,13 @@ collector leakage (leave it off unless wanted).
 
 Header order is E, B, C; plug a BC-series (C, B, E) socket in reversed.
 
-## Example: Spirit in the Sky style fuzz (Overcast)
+## Example: PedalPCB Overcast Fuzz
 
-The Overcast is a Spirit in the Sky clone: one transistor, 6M collector-to-base
-bias, 470R emitter, 100K collector load. With a 2SC1815-GR (hFE ~300) the
+PedalPCB's [Overcast Fuzz](https://www.pedalpcb.com/product/pcb724/)
+([build doc](https://docs.pedalpcb.com/project/OvercastFuzz-PedalPCB.pdf)) is a
+Spirit in the Sky style fuzz: one gain transistor with 6M collector-to-base
+bias, a 470R emitter resistor and a 100K collector load, and the forum
+consensus is that it sounds best around hFE 125. With a 2SC1815-GR (hFE ~300) the
 collector sits near 2.0 V; a 125 hFE part would put it near 3.3 V with the
 gain control at minimum. Plug this board into the Q1 socket, put a meter on
 the collector, and trim until it reads about 3.3 V. That is the 125 hFE sound.

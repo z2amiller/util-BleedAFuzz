@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 1.0,
-          "height": 1.7,
-          "width": 1.7
+          "height": 1.9304,
+          "width": 1.9304
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -61,7 +61,7 @@
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
           "min_clearance": 0.25,
-          "min_island_area": 10.0,
+          "min_island_area": 0.0013161349,
           "min_thickness": 0.25,
           "pad_connection": 3,
           "remove_islands": 0,
@@ -212,7 +212,8 @@
       "track_widths": [
         0.0,
         0.4,
-        0.5
+        0.5,
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -740,23 +741,23 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "util-DialAFuzz.kicad_sch",
-        "name": "Root",
+        "filename": "util-BleedAFuzz.kicad_sch",
+        "name": "util-BleedAFuzz",
         "uuid": "18009766-d7bc-4cdd-ba60-e8daf945e6f0"
       }
     ],
-    "used_designators": "RV1,R1-2,Q1-2,J1",
+    "used_designators": "RV1,R1-3,Q1-2,J1",
     "variants": []
   },
   "sheets": [
     [
       "18009766-d7bc-4cdd-ba60-e8daf945e6f0",
-      "Root"
+      "util-BleedAFuzz"
     ]
   ],
   "text_variables": {
-    "BOARD_STATUS": "utility",
-    "BOARD_NOTE": "bleed-a-fuzz: base-emitter bleed trimmer to emulate a lower-hFE transistor, not an effects pedal"
+    "BOARD_NOTE": "bleed-a-fuzz: base-emitter bleed trimmer to emulate a lower-hFE transistor, not an effects pedal",
+    "BOARD_STATUS": "utility"
   },
   "tuning_profiles": {
     "meta": {

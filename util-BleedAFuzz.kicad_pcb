@@ -782,6 +782,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C17514"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2d374e81-7dce-4382-80ef-ccd6a65bc394")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/3222f5e9-c24b-4046-b72f-42f10e54c2f2")
 		(sheetname "/")

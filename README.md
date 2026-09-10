@@ -47,3 +47,11 @@ tool.
 gerber and drill set; no KiCad install needed to order the board. One SOT-23
 transistor, two 0805 resistors (one optional), a 3-pin header and a through-hole 1M
 trimmer on the back.
+
+## License
+
+Licensed under the **CERN Open Hardware Licence Version 2 – Permissive**
+(CERN-OHL-P v2). See [LICENSE](LICENSE) and [NOTICE](NOTICE).
+
+You may make, modify, and sell boards from these files, with no obligation to
+publish your changes.
